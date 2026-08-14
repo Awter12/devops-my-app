@@ -3,7 +3,7 @@
 FROM nginx:alpine
 
 # Copy the static HTML file to Nginx's default directory
-COPY index.html /usr/share/nginx/html/
+COPY  . /usr/share/nginx/html/
 
 # Expose port 80 for web traffic
 EXPOSE 80
